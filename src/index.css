@@ -1,0 +1,6 @@
+@import './aa.css';
+@import 'antd/dist/antd.css';
+
+.ABC {
+	color: red;
+}

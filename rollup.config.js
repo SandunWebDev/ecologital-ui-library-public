@@ -4,6 +4,8 @@ import babel from '@rollup/plugin-babel';
 import external from 'rollup-plugin-peer-deps-external';
 import del from 'rollup-plugin-delete';
 import pkg from './package.json';
+import css from 'rollup-plugin-import-css';
+import styles from 'rollup-plugin-styles';
 
 export default {
 	input: pkg.source,
@@ -13,10 +15,20 @@ export default {
 	],
 	plugins: [
 		external(),
+
 		babel({
 			exclude: 'node_modules/**',
 		}),
+		// css({
+		// 	output: 'ecologitalUILibrary.css',
+		// 	alwaysOutput: true,
+		// 	minify: true,
+		// }),
+
 		del({ targets: ['dist/*'] }),
+		styles({
+			mode: ['extract', 'ecologitalUILibrary.css'],
+		}),
 	],
 	external: Object.keys(pkg.peerDependencies || {}),
 };

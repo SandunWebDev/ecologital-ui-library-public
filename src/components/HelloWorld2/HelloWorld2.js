@@ -1,7 +1,14 @@
 import React from 'react';
+import './HelloWorld2.css';
 
-function HelloWorld2() {
-	return <h1 style={{ color: 'red' }}>Hello World5</h1>;
+function HelloWorld2(props = {}) {
+	const { text = 'Hello World' } = props;
+
+	return (
+		<h1 style={{ color: 'red' }} className='HelloWorld2'>
+			{text}
+		</h1>
+	);
 }
 
 export default HelloWorld2;
