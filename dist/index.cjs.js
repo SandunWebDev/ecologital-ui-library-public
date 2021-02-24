@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var React = require('react');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
@@ -18,9 +20,5 @@ function HelloWorld2() {
   }, "Hello World5");
 }
 
-var index = {
-  HelloWorld: HelloWorld,
-  HelloWorld2: HelloWorld2
-};
-
-module.exports = index;
+exports.HelloWorld = HelloWorld;
+exports.HelloWorld2 = HelloWorld2;

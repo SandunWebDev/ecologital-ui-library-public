@@ -12,9 +12,4 @@ function HelloWorld2() {
   }, "Hello World5");
 }
 
-var index = {
-  HelloWorld: HelloWorld,
-  HelloWorld2: HelloWorld2
-};
-
-export default index;
+export { HelloWorld, HelloWorld2 };
