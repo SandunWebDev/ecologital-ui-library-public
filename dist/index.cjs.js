@@ -9,7 +9,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 function HelloWorld() {
-  return /*#__PURE__*/React__default['default'].createElement("h1", null, "Hello World3");
+  return /*#__PURE__*/React__default['default'].createElement("h1", null, "Hello World4");
 }
 
 exports.HelloWorld = HelloWorld;
