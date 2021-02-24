@@ -6,4 +6,4 @@ import './index.css';
 // import 'antd/dist/antd.css';
 // import 'antd/dist/antd.less';
 
-export { HelloWorld, HelloWorld2 };
+export { HelloWorld, HelloWorld2, Menu };

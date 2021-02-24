@@ -14,4 +14,4 @@ function Menu(props = {}) {
 	);
 }
 
-export default HelloWorld2;
+export default Menu;

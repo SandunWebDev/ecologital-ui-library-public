@@ -1,11 +1,11 @@
 import React from 'react';
-import 'antd';
+import { Button } from 'antd';
 
 function HelloWorld() {
   return /*#__PURE__*/React.createElement("h1", null, "Hello World5");
 }
 
-function HelloWorld2$1() {
+function HelloWorld2() {
   var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   var _props$text = props.text,
       text = _props$text === void 0 ? 'Hello World' : _props$text;
@@ -17,6 +17,12 @@ function HelloWorld2$1() {
   }, text);
 }
 
-HelloWorld2;
+function Menu() {
+  var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  props.text;
+  return /*#__PURE__*/React.createElement("div", null, "ANTD", /*#__PURE__*/React.createElement(Button, {
+    type: "primary"
+  }, "Primary Button"));
+}
 
-export { HelloWorld, HelloWorld2$1 as HelloWorld2 };
+export { HelloWorld, HelloWorld2, Menu };
