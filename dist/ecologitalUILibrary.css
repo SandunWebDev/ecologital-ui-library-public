@@ -4,7 +4,9 @@
 
 .Menu {
 	align-items: stretch;
-	background: #f2f4f8;
+
+	/* background: #f2f4f8; */
+	background: #6e7279;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	display: flex;
 	height: 55px;
