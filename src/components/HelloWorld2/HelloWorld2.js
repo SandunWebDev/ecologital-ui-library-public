@@ -5,7 +5,7 @@ function HelloWorld2(props = {}) {
 	const { text = 'Hello World' } = props;
 
 	return (
-		<h1 style={{ color: 'red' }} className='HelloWorld2'>
+		<h1 style={{ color: 'purple' }} className='HelloWorld2'>
 			{text}
 		</h1>
 	);

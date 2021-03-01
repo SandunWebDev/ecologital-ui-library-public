@@ -12,7 +12,7 @@ function HelloWorld2() {
       text = _props$text === void 0 ? 'Hello World' : _props$text;
   return /*#__PURE__*/React.createElement("h1", {
     style: {
-      color: 'red'
+      color: 'purple'
     },
     className: "HelloWorld2"
   }, text);
